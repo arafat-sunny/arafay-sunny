@@ -195,12 +195,12 @@ span{
 }
 .text-animation span{
     position: relative;
-}
+}/*
 .text-animation span:before{
     content: "Web Developer";
     color: var(--main-color);
     animation: words 20s infinite;
-}
+}*/
 .text-animation span:after{
     content: "";
     background-color: var(--bg-color);
@@ -219,12 +219,12 @@ span{
 @keyframes words {
     0%,
     50%{
-        content: "Graphic design  ";
+        content: "Graphics designer ";
     }
     
     51%,
     100%{
-        content: "Graphic design ";
+        content: "Graphics designer ";
     }
 }
 @keyframes typing {
