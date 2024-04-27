@@ -197,7 +197,7 @@ span{
     position: relative;
 }
 .text-animation span:before{
-    content: "Graphic Designer";
+    content: "Graphics Designer";
     color: var(--main-color);
     animation: words 20s infinite;
 }
@@ -219,12 +219,12 @@ span{
 @keyframes words {
     0%,
     50%{
-        content: "Graphic designer ";
+        content: "Graphics designer ";
     }
     
     51%,
     100%{
-        content: "Graphic designer ";
+        content: "Graphics designer ";
     }
 }
 @keyframes typing {
